@@ -22954,6 +22954,7 @@ h3, .h3 {
 h4, .h4 {
   font-size: 1.5rem;
   line-height: 1.375;
+  color: black;
 }
 @media (max-width: 575.98px) {
   h4, .h4 {

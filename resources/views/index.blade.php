@@ -1,8 +1,6 @@
 @extends('layouts.app')
 
 @section('head')
-    <link rel="stylesheet" href="assets/css/responsive.css">
-	<link rel="stylesheet" href="assets/css/estilos.css">
     <link rel="stylesheet" href="assets/css/grid_inicio.css">
 @endsection
 
@@ -16,12 +14,22 @@
         </div>
     </div>
 
-    <body>
-        <div class="contenedor">
-            <div class="present">@lang('auth.descripcionHome')</div>
-            <div class="title">@lang('auth.titulo')</div>
-            <img class="imag_cent" src="{{ asset('img/home/rugby.jpg') }}" alt="Imagen">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 d-flex align-items-center" style="height: 33vh;">
+                <h1 class="present">@lang('auth.descripcionHome')</h1>
+            </div>
         </div>
-    </body>
+        <div class="row">
+            <div class="col-md-12 d-flex justify-content-center" style="height: 33vh;">
+                <h1 class="title text-center">@lang('auth.titulo')</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 d-flex align-items-center justify-content-end" style="height: 33vh;">
+                <img class="img-fluid" src="{{ asset('img/home/rugby.jpg') }}" alt="Imagen">
+            </div>
+        </div>
+    </div>
 
 @endsection

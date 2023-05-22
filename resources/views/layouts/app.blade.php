@@ -22,7 +22,7 @@
     @yield('head')
 </head>
 
-<body class="{{ $class ?? '' }}">
+<body class="{{ $class ?? '' }} bg-primary">
 
     @guest
         @yield('content')

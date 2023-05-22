@@ -1,107 +1,11 @@
-
-.contenedor {
-    display: grid;
-    grid-template-columns:  repeat(12, 1fr);
-    grid-template-rows: 10vh 17.75vh 35vh 36vh;
-    grid-gap: 0px;
-    font-size: 1.5em;
-    letter-spacing: 2px;
-}
-
-
 .present {
-    grid-column: 3/10;
-    grid-row: 2/3;
-    font-size: 2em;
+    font-size: 2.2em;
     font-family: Roboto, Helvetica, sans-serif;
-    text-align: left;
-    letter-spacing: 0px;
-    padding-top: 0px;
 }
 .title {
-    grid-column: 3/10;
-    grid-row: 3/4;
     font-size: 12em;
     font-family: serif;
-    text-align:unset;
-    letter-spacing: 0px;
-    text-align: left;
 }
-.imag_cent {
-    grid-area: 4/6/5/13;
-    padding: 0px;
-}
-.imag_cent>img {
-    object-fit: cover;
-    max-width: 100%;
-    height: auto;
-
-}
-.home{
-    grid-column: 4;
-    grid-row: 1;
-    font-size: 1em;
-    text-align: center;
-    display: grid;
-    margin-top: 0em;
-    margin-bottom: 3.4em;
-  }
- .about{
-    grid-column: 5;
-    grid-row: 1;
-    font-size: 1em;
-    text-align: center;
-    display: grid;
-    margin-top: 0em;
-    margin-bottom: 3.4em;
-}
-.register{
-    grid-column: 6;
-    grid-row: 1;
-    font-size: 1em;
-    text-align: center;
-    display: grid;
-    margin-top: 0em;
-    margin-bottom: 3.4em;
-}
-
-.login{
-    grid-column: 8;
-    grid-row: 1;
-    font-size: 1em;
-    text-align: center;
-    display: grid;
-    margin-top: 0em;
-    margin-bottom: 3.4em;
-}
-.manual{
-    grid-column: 9;
-    grid-row: 1;
-    font-size: 1em;
-    text-align: center;
-    display: grid;
-    margin-top: 0em;
-    margin-bottom: 3.4em;
-}
-.icontact{
-    grid-column: 10;
-    grid-row: 1;
-    font-size: 1em;
-    text-align: center;
-    display: grid;
-    margin-top: 0em;
-    margin-bottom: 3.4em;
-}
-.language{
-    grid-column: 12;
-    grid-row: 1;
-    font-size: 1em;
-    text-align: center;
-    display: grid;
-    margin-top: 0em;
-    margin-bottom: 3.4em;
-}
-
 
 
 

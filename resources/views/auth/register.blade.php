@@ -1,12 +1,23 @@
 @extends('layouts.app')
 
 @section('content')
-    @include('layouts.navbars.guest.navbar')
 
-    <main class="main-content  mt-0">
-        <div class="container">
-            <div class="row align-items-center justify-content-center" style="height: 100vh;">
-                <div class="mx-auto d-flex align-items-center">
+    <div class="container position-sticky z-index-sticky top-0">
+        <div class="row">
+            <div class="col-12">
+                @include('layouts.navbars.guest.navbar')
+            </div>
+        </div>
+    </div>
+
+    <main class="main-content mt-0">
+        <div class="container-fluid d-flex flex-column">
+            <div class="row align-items-center" style="height: 100vh;">
+                <div class="col-md-2 align-self-center">
+                    <img src="{{ asset('img/home/flowers.jpg') }}" alt="Imagen" class="img-fluid">
+                </div>
+
+                <div class="col-md-8 d-flex">
                     <div class="card z-index-0">
                         <div class="card-header text-center pb-0">
                             <h4 class="font-weight-bolder">@lang('guest.titulo')</h4>

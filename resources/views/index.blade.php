@@ -17,12 +17,12 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 d-flex align-items-center" style="height: 33vh;">
-                <h1 class="present">@lang('auth.descripcionHome')</h1>
+                <h1 class="present">@lang('guest.descripcionHome')</h1>
             </div>
         </div>
         <div class="row">
             <div class="col-md-12 d-flex justify-content-center" style="height: 33vh;">
-                <h1 class="title text-center">@lang('auth.titulo')</h1>
+                <h1 class="title text-center">@lang('guest.titulo')</h1>
             </div>
         </div>
         <div class="row">

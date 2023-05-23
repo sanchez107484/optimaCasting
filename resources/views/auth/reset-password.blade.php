@@ -16,8 +16,8 @@
                         <div class="col-xl-4 col-lg-5 col-md-7 d-flex flex-column mx-lg-0 mx-auto">
                             <div class="card card-plain">
                                 <div class="card-header pb-0 text-start">
-                                    <h4 class="font-weight-bolder">@lang('auth.resetearContraseña')</h4>
-                                    <p class="mb-0">@lang('auth.descripcionResetear')</p>
+                                    <h4 class="font-weight-bolder">@lang('guest.resetearContraseña')</h4>
+                                    <p class="mb-0">@lang('guest.descripcionResetear')</p>
                                 </div>
                                 <div class="card-body">
                                     <form role="form" method="POST" action="{{ route('reset.perform') }}">
@@ -28,7 +28,7 @@
                                             @error('email') <p class="text-danger text-xs pt-1"> {{$message}} </p>@enderror
                                         </div>
                                         <div class="text-center">
-                                            <button type="submit" class="btn btn-lg btn-primary btn-lg w-100 mt-4 mb-0">@lang('auth.enviarLinkReseteo')</button>
+                                            <button type="submit" class="btn btn-lg btn-primary btn-lg w-100 mt-4 mb-0">@lang('guest.enviarLinkReseteo')</button>
                                         </div>
                                     </form>
                                 </div>

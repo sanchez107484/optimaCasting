@@ -16,8 +16,8 @@
                         <div class="col-xl-4 col-lg-5 col-md-7 d-flex flex-column mx-lg-0 mx-auto">
                             <div class="card card-plain">
                                 <div class="card-header pb-0 text-start">
-                                    <h4 class="font-weight-bolder">@lang('auth.iniciarSesion')</h4>
-                                    <p class="mb-0">@lang('auth.descripcionSignIn')</p>
+                                    <h4 class="font-weight-bolder">@lang('guest.iniciarSesion')</h4>
+                                    <p class="mb-0">@lang('guest.descripcionSignIn')</p>
                                 </div>
                                 <div class="card-body">
                                     <form role="form" method="POST" action="{{ route('login.perform') }}">
@@ -33,23 +33,23 @@
                                         </div>
                                         <div class="form-check form-switch">
                                             <input class="form-check-input" name="remember" type="checkbox" id="rememberMe">
-                                            <label class="form-check-label" for="rememberMe">@lang('auth.recordarme')</label>
+                                            <label class="form-check-label" for="rememberMe">@lang('guest.recordarme')</label>
                                         </div>
                                         <div class="text-center">
-                                            <button type="submit" class="btn btn-lg btn-primary btn-lg w-100 mt-4 mb-0">@lang('auth.iniciarSesion')</button>
+                                            <button type="submit" class="btn btn-lg btn-primary btn-lg w-100 mt-4 mb-0">@lang('guest.iniciarSesion')</button>
                                         </div>
                                     </form>
                                 </div>
                                 <div class="card-footer text-center pt-0 px-lg-2 px-1">
                                     <p class="mb-1 text-sm mx-auto">
-                                        @lang('auth.preguntaContraseña')
+                                        @lang('guest.preguntaContraseña')
                                         <a href="{{ route('reset-password') }}" class="text-primary text-gradient font-weight-bold">here</a>
                                     </p>
                                 </div>
                                 <div class="card-footer text-center pt-0 px-lg-2 px-1">
                                     <p class="mb-4 text-sm mx-auto">
-                                        @lang('auth.preguntaRegistrarse')
-                                        <a href="{{ route('register') }}" class="text-primary text-gradient font-weight-bold">@lang('auth.registrate')</a>
+                                        @lang('guest.preguntaRegistrarse')
+                                        <a href="{{ route('register') }}" class="text-primary text-gradient font-weight-bold">@lang('guest.registrate')</a>
                                     </p>
                                 </div>
                             </div>

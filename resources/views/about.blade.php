@@ -17,10 +17,10 @@
             </div>
             <div class="col-md-8">
                 <div class="d-flex text-justify align-items-end h-50">
-                    <h2>@lang('auth.textoAbout1')</h2>
+                    <h2>@lang('guest.textoAbout1')</h2>
                 </div>
                 <div class="d-flex text-justify justify-content-start text-start h-50 my-5" style="margin-left: 5rem;">
-                    <h2>@lang('auth.textoAbout2')</h2>
+                    <h2>@lang('guest.textoAbout2')</h2>
                 </div>
             </div>
         </div>
